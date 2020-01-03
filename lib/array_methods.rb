@@ -6,7 +6,7 @@ array.index(value)
 end
 
 def find_max_value (array)
-#array.max 
+array.max(2) 
 
 binding.pry
 end 
