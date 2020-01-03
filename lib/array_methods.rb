@@ -8,10 +8,12 @@ end
 def find_max_value (array)
 i = 0
 max = array[0] 
-while i < array.size 
-if 
-else 
-end
+  while i < array.size 
+    if !max>array[i]
+    max = array[i]
+    end
+  i++
+  end
 max
 end 
 
