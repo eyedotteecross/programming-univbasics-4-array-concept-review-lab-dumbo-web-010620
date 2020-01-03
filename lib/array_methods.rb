@@ -6,9 +6,13 @@ array.index(value)
 end
 
 def find_max_value (array)
-array.max(2) 
-
-binding.pry
+i = 0
+max = array[0] 
+while i < array.size 
+if 
+else 
+end
+max
 end 
 
 
