@@ -7,11 +7,11 @@ end
 def find_max_value (array)
   i = 1
   max = array[0] 
-  while i < array.size do
-    if max>array[i]
+  while i < array.size 
+    if max<array[i]
     max = array[i]
     end
-  i++
+  i += 1
   end
 max
 end 
