@@ -5,7 +5,7 @@ def find_element_index (array,value)
 end
 
 def find_max_value (array)
-array.max  
+array.max {|a|b| a} 
 end 
 
 def find_max_value (array)
