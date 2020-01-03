@@ -13,7 +13,7 @@ max = array[0]
     max = array[i]
     end
   i++
-  \
+  
 max
 end 
 
