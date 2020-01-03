@@ -1,7 +1,5 @@
 require 'pry'
 def find_element_index (array,value) 
-  array.find do |i| 
-  array == i ? i : nil 
-  end
+  array.index[value]
   #binding.pry
 end
