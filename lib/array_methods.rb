@@ -6,14 +6,14 @@ array.index(value)
 end
 
 def find_max_value (array)
-i = 0
+i = 1
 max = array[0] 
   while i < array.size do
-    if !max>array[i]
+    if max>array[i]
     max = array[i]
     end
   i++
-  
+  end
 max
 end 
 
